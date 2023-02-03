@@ -1,0 +1,16 @@
+Fibonacci Series
+0,1,1,2,3,5,8,13,21…
+The next term in a series is the sum of the last two terms.
+Title: Algorithm for Fibonacci series
+Input: n
+Initialize: f(n) = 0;
+For i = 0 to n-1
+	If i == 0
+		F(i) = 0
+	Else if i ==1
+		F(i) = 1
+	Else
+		F(i) = f(i-1) + f(i-2)
+	End if
+End for
+Return f(n)
